@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/glyle/photofetch/_apis/build/status/photofetch%20CI?branchName=master)](https://dev.azure.com/glyle/photofetch/_build/latest?definitionId=29&branchName=master)
+[![Build Status](https://dev.azure.com/glyle/photofetch/_apis/build/status/Photofetch?branchName=master)](https://dev.azure.com/glyle/photofetch/_build/latest?definitionId=30&branchName=master)
 
 ## Project overview
 The idea behind this project is to create a SPA (within 3 hours) that connects to a REST API and returns a list of images. Each image will have a button were the user can click through and see more details about that image. 
