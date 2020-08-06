@@ -1,0 +1,17 @@
+.list-group .list-group-item {
+  display: grid;
+  grid-template-columns: auto 200px auto;
+  grid-gap: 30px;
+  justify-content: start;
+  align-items: center;
+}
+
+i.fas {
+  padding: 0 10px 0 0;
+}
+
+tr td img {
+  width: 64px;
+}
+
+/*# sourceMappingURL=index.css.map */
