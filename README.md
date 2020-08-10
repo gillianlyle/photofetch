@@ -7,12 +7,14 @@ The idea behind this project is to create a SPA (within 3 hours) that connects t
 
 ## Project criteria
 **Initial screen**
+
 In the initial screen, I want to display 50 images, with the following 
 * thumbnail of each image (64px wide)
 * author
 * more details button (that clicks through to another page showing more details)
 
 **More details screen**
+
 Once the user clicks on the more details button, i want the user to see the following
 * full width version of image
 * author details
@@ -40,5 +42,6 @@ Once you have downloaded the source code to your local machine, within the proje
 2. npm start (should automatically open up the application in the browser, if not you can view it at http://localhost:3000/)
 
 **Testing**
+
 If you would like to run the tests, simply run the following command
 1. npm test -- --coverage --watchAll
