@@ -13,7 +13,6 @@ const Details = route => {
         
         // fetch record from api
         fetch(`https://picsum.photos/id/${id}/info`)
-            
             .then(
                 // receive data in json format
                 response => response.json()) 
@@ -33,9 +32,17 @@ const Details = route => {
     )
 
     if (error) {
-        return <div className="alert alert-primary" role="alert">Error: {error.message}</div>;
+        return (
+            <div className="alert alert-primary" role="alert">
+                Error: {error.message}
+            </div>
+        )
     } else if (!isLoaded) {
-        return <div className="alert alert-warning" role="alert">Loading...</div>;
+        return (
+            <div className="alert alert-warning" role="alert">
+                Loading...
+            </div>
+        )
     } else {
         return (
             <>

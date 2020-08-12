@@ -10,12 +10,9 @@ const App = () => {
   useEffect(() => {
     // fetch data from api
     fetch("https://picsum.photos/v2/list?&limit=50")
-      
       .then(
         // receive data in json format
-        response => response.json()
-        )
-      
+        response => response.json())
       .then(
         // update state of application
         result => {
