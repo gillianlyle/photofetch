@@ -28,8 +28,7 @@ const Details = route => {
                     setError(error);
                 }
             )
-        }
-    )
+        }, []) // add empty array as 2nd argument so we only fetch data when component mounts and not when component updates.
 
     if (error) {
         return (
